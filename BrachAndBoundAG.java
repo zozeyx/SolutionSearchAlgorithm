@@ -53,7 +53,7 @@ public class BranchAndBoundAG {
         branchAndBound(0, 0, 1, visited, path);
 
         // Output the result
-        System.out.println("Optimal Path: " + bestPath);
+        System.out.println("Path: " + bestPath);
         System.out.println("Total Distance: " + minCost);
     }
 }
