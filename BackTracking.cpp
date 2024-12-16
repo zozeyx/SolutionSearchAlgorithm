@@ -58,7 +58,7 @@ int main() {
     backtrack(start, path, 0, visited, start);
 
     // 결과 출력
-    cout << "Optimal Path: ";
+    cout << "Path: ";
     for (char node : best_path) {
         cout << node << " ";
     }
